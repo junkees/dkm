@@ -1,3 +1,22 @@
+@font-face {
+    font-family: HelveticaNeueCyrMedium;
+    color:black;
+    src: url(../fonts/HelveticaNeue.woff);
+}
+
+
+
+
+.nav-link {
+    font-family: HelveticaNeueCyrMedium,Arial,sans-serif;
+    color: black;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+
 .carousel slide .item {
     height: 30px;
 }
@@ -10,22 +29,19 @@
 }
 
 
-#slider-photo img {
-    height: 500px;
+@media (max-width: 576px) {
+    #slider-photo img {
+    height: 180px;
+}
 }
 
-#alboum-img {
-    font-family: "Times New Roman";
+@media (min-width: 580px) {
+    #slider-photo img {
+        height: 320px;
+    }
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: yellow;
-}
 
-.nav-pills .nav-link.active, .nav-pills .show:hover > .nav-link {
-    background-color: black;
-}
-
-#howto {
-    font-family: "Times New Roman";
+#aboutus {
+    font-size: 18px;
 }

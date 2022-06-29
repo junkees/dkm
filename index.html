@@ -7,28 +7,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="./js/owl.carousel.js"></script>
     <title>DKM Group</title>
 </head>
 <body>
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="./index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-4">
-                    <img src="img/img.png" alt="">
-                </span>
-            </a>
+        <nav class="border-bottom">
+            <div class="container">
+                <ul class="nav nav-pills justify-content-around">
+                    <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page"><b>Главная</b></a></li>
+                    <li class="nav-item"><a href="./works.html" class="nav-link"><b>Наши работы</b></a></li>
+                    <li class="nav-item"><a href="./works.html" class="nav-link"><b>Отзывы</b></a></li>
+                    <li class="nav-item"><a href="./works.html" class="nav-link"><b>Доставка</b></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><b>Контакты</b></a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="d-flex justify-content-between py-4 mb-4 border-bottom">
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="img/img.png" width="100%" height="120px" alt="">
+                </div>
+                <div class="col">
+                    <p class="text-center"><i class="fa-solid fa-location-dot"></i> 107370, г. Москва Открытое шоссе д. 20 стр. 1</p>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Главная</a></li>
-                <li class="nav-item"><a href="./works.html" class="nav-link">Наши работы</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
-            </ul>
+                </div>
+                <div class="col">
+                    <p><i class="fa-solid fa-phone"></i> +79998061309</p>
+                    <p><i class="fa-solid fa-phone"></i> +79998061309</p>
+                    <p><i class="fa-solid fa-phone"></i> +79998061309</p>
+                </div>
+            </div>
+
         </header>
     </div>
 
@@ -42,22 +58,22 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/slider/92sZeWTdwp8.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="img/slider/92sZeWTdwp8.jpg" class="w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/slider/jZfSslZ2PKw.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="img/slider/jZfSslZ2PKw.jpg" class="w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="img/slider/KyCeGJM17J8.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="img/slider/KyCeGJM17J8.jpg" class="w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
                         </div>
@@ -75,7 +91,7 @@
         </div>
     </section>
 
-    <section id="howto">
+    <section id="howto" class="pb-20">
         <div class="container py-3 px-3" id="featured-3">
             <h2 class="pb-2 border-bottom text-center">КАК СДЕЛАТЬ ЗАКАЗ</h2>
             <div class="row text-center">
@@ -97,68 +113,20 @@
             </div>
         </div>
     </section>
-    <section id="alboum-img">
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <img src="./img/KyCeGJM17J8.jpg" width="100%" height="250px" alt="" srcset="">
-                            <div class="card-body">
-                                <p class="card-text">ахуительная кухня бля буду</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Позвонить</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Заказать</button>
-                                    </div>
-                                    <small class="text-muted">55.000 рублей.</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="aboutus">
+        <div class="text-center">
+        <h1 class="display-5 fw-bold">О нас</h1>
+        <div class="col-lg-8 mx-auto">
+            <p class="lead mb-4">О компании ДКМ-групп
+                «ДКМ групп» - производитель межкомнатных дверей, шкафов купе, дверц для антресолей в Москве. А также мы делаем кухни под заказ. Наши кухонные гарнитуры, выполненные в различных стилях, формах и цветах. Приедем к вам и предложим вам лучшие варианты для вашего помещения. Делаем мебель под заказ исходя из размеров. Подберем мебель по вашему желанию и предпочтению. А также можем сделать кухню/изделие по вашим размерам. Яркие цвета или сдержанные? Скорее изучайте предложения на нашем сайте и выбирайте лучшее для себя! Сразу скажем о примерной стоимости исходя из расчетов.</div>
+    </div>
     </section>
 
 
     <div class="container">
         <footer class="d-flex justify-content-between py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-muted">© 2004-2022 DKMGroup.</p>
-            <p class="text-muted">тел.: +7 (995) 550-64-64</p>
+            <p class="text-muted">+7 (995) 550-64-64</p>
         </footer>
     </div>
 </body>
