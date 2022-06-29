@@ -25,3 +25,7 @@
 .nav-pills .nav-link.active, .nav-pills .show:hover > .nav-link {
     background-color: black;
 }
+
+#howto {
+    font-family: "Times New Roman";
+}
