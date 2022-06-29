@@ -1,0 +1,27 @@
+.carousel slide .item {
+    height: 30px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+#slider-photo img {
+    height: 500px;
+}
+
+#alboum-img {
+    font-family: "Times New Roman";
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: yellow;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show:hover > .nav-link {
+    background-color: black;
+}
