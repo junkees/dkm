@@ -31,17 +31,26 @@
 
 @media (max-width: 576px) {
     #slider-photo img {
-    height: 180px;
+    height: 300px;
 }
 }
 
 @media (min-width: 580px) {
     #slider-photo img {
-        height: 320px;
+        height: 600px;
     }
 }
+
 
 
 #aboutus {
     font-size: 18px;
 }
+
+
+ .carousel-indicators {
+     background: #fefcea; /* Для старых браузров */
+     background: linear-gradient(to top, black,);
+     padding: 10px;
+     border: 1px solid #333;
+ }
