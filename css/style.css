@@ -48,9 +48,4 @@
 }
 
 
- .carousel-indicators {
-     background: #fefcea; /* Для старых браузров */
-     background: linear-gradient(to top, black,);
-     padding: 10px;
-     border: 1px solid #333;
- }
+ 
