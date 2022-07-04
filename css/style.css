@@ -45,14 +45,14 @@
 @media (max-width: 576px) {
     header img {
         width: 100%;
-        height: 100px;
+        height: 130px;
     }
 }
 
 @media (min-width: 580px) {
     header img {
         width: 90%;
-        height: 120px;
+        height: 150px;
     }
 }
 
@@ -69,3 +69,5 @@
         height: 300px;
     }
 }
+
+
