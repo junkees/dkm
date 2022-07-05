@@ -75,4 +75,36 @@
     font-size: 30px;
 }
 
+#colors img {
+    padding-bottom: 10px;
+}
 
+@media (max-width: 576px) {
+    #colors img {
+        padding-bottom: 10px;
+        height: 120px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 580px) {
+    #colors img {
+        padding-bottom: 10px;
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    #colors .modal-body img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 580px) {
+    #colors .modal-body img {
+        height: 100%;
+        width: 100%;
+    }
+}
