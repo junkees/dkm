@@ -17,7 +17,7 @@
 <body>
 <div class="container">
     <nav class="border-bottom">
-        <div class="container">
+        <div class="container" style="background-color: orange">
             <ul class="nav nav-pills justify-content-around">
                 <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page"><b>Главная</b></a></li>
                 <li class="nav-item"><a href="./works.html" class="nav-link"><b>Наши работы</b></a></li>
@@ -26,7 +26,7 @@
         </div>
     </nav>
     <header class="px-4 py-4">
-        <div class="container">
+        <div class="container" style="font-family:'Oswald Medium'; font-size: 24px">
             <div class="row">
                 <div class="col-lg-4 col-md-12">
                     <a href="./index.html"><img src="img/logoDkm.png" class="px-4" alt=""></a>
@@ -50,33 +50,41 @@
 </div>
 
     <section id="slider-photo" class="pb-4">
-        <div class="container">
+        <div class="container" style="font-family:'Oswald Medium'">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="./kitchens/first.html"><img src="img/slider/92sZeWTdwp8.jpg" class="w-100" alt="..."></a>
-                        <div class="carousel-caption d-md-block">
-                            <h5>50000 руб</h5>
-                            <p>Кухня эконом ЭК-1 цвет БЕЛЫЙ </p>
+                <div class="border-slider">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="./kitchens/first.html"><img src="./img/kitchen1Alisa/kitchen%20Alisa%20main.jpg" class="w-100" alt="..."></a>
+                            <div class="carousel-caption d-md-block">
+                                <div class="carusel-text">
+                                <p>78000 руб</p>
+                                <p>Кухня Алиса</p>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/slider/jZfSslZ2PKw.jpg" class="w-100" alt="...">
-                        <div class="carousel-caption d-md-block">
-                            <h5>30000 руб</h5>
-                            <p>Кухня эконом ЭК-1 цвет Черный</p>
+                        <div class="carousel-item">
+                            <img src="./img/kitcheneco1white/kitcheneco1white.jpg" class="w-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <div class="carusel-text">
+                                <p>21000 руб</p>
+                                <p>Кухня эконом ЭК-1 цвет Белый</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/slider/KyCeGJM17J8.jpg" class="w-100" alt="...">
-                        <div class="carousel-caption d-md-block">
-                            <h5>35000 руб</h5>
-                            <p>Кухня эконом ЭК-1 цвет Черный</p>
+                        <div class="carousel-item">
+                            <img src="./img/kitchen1Alisa/abc5.jpg" class="w-100" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <div class="carusel-text">
+                                    <p>78000 руб</p>
+                                    <p>Кухня Алиса</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -93,8 +101,8 @@
     </section>
 
     <section id="howto" class="pb-20" style="font-family:'Segoe UI Black'">
-        <div class="container py-3 px-3" id="featured-3">
-            <h2 class="pb-2 border-bottom text-center">КАК СДЕЛАТЬ ЗАКАЗ?</h2>
+        <div class="container " id="featured-3">
+            <h2 class="border-bottom text-center py-2" style="background-color: orange">КАК СДЕЛАТЬ ЗАКАЗ?</h2>
             <div class="row text-center">
                 <div class="col">
                     <img src="./img/howto/1.jpg" height="200px" width="200px" alt="">
@@ -118,7 +126,7 @@
 
     <section id="colors" > <!-- цветовая палитра -->
         <div class="container">
-            <div class="border-bottom text-center py-2" style="font-size:36px; font-family:'Segoe UI Black'">Доступные расцветки</div> <!-- не трогать -->
+            <div class="border-bottom text-center py-2" style="font-size:32px; font-family:'Segoe UI Black'; background-color: orange">ДОСТУПНЫЕ РАСЦВЕТКИ</div> <!-- не трогать -->
             <div class="py-3 row justify-content-start text-center"> <!-- не трогать -->
                 <div class="col-lg-2 col-md-6">
                     <img src="./img/patternsgood/akacia%20lay%20land.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal1"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
@@ -130,7 +138,7 @@
                                     <p class="text-center">Акация лей ленд</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -146,28 +154,13 @@
                                     <p class="text-center">Атлас светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/patternsgood/belaya%20shagren.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal3"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
-                    <div class="modal fade" id="modal3"> <!-- меняешь тут modalfive на modalone -->
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="./img/patternsgood/belaya%20shagren.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
-                                    <p class="text-center">Белая шагрень</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-lg-2 col-md-6">
                     <img src="./img/patternsgood/beliy%20glyanec.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal4"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
                     <div class="modal fade" id="modal4"> <!-- меняешь тут modalfive на modalone -->
@@ -178,7 +171,7 @@
                                     <p class="text-center">Белый глянец</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +187,7 @@
                                     <p class="text-center">Бетон чикаго</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +203,7 @@
                                     <p class="text-center">Бетон пайи темный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +219,7 @@
                                     <p class="text-center">Цемент темный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +235,7 @@
                                     <p class="text-center">Дуб алтанта</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -258,7 +251,7 @@
                                     <p class="text-center">Дуб молочный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -274,7 +267,7 @@
                                     <p class="text-center">Дуб ордынсикй</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -290,7 +283,7 @@
                                     <p class="text-center">Дуб сандал</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -306,28 +299,13 @@
                                     <p class="text-center">Дуб санома</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/patternsgood/dub%20santana%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal12"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
-                    <div class="modal fade" id="modal12"> <!-- меняешь тут modalfive на modalone -->
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="./img/patternsgood/dub%20santana%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
-                                    <p class="text-center">Дуб сантана светлый</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 <div class="col-lg-2 col-md-6">
                     <img src="./img/patternsgood/dub%20shamoni%20temniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal13"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
                     <div class="modal fade" id="modal13"> <!-- меняешь тут modalfive на modalone -->
@@ -338,7 +316,7 @@
                                     <p class="text-center">Дуб шамони темный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +332,7 @@
                                     <p class="text-center">Дуб шамони</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -370,7 +348,7 @@
                                     <p class="text-center">Дуб ватон</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -386,7 +364,7 @@
                                     <p class="text-center">Дуб венге</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -402,7 +380,7 @@
                                     <p class="text-center">Гаскон пайи светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -418,7 +396,7 @@
                                     <p class="text-center">Индиан эбони светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -434,7 +412,7 @@
                                     <p class="text-center">Кантри светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -450,7 +428,7 @@
                                     <p class="text-center">Кашемир</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -466,7 +444,7 @@
                                     <p class="text-center">Клен</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -482,7 +460,7 @@
                                     <p class="text-center">Либерика молочная</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -498,7 +476,7 @@
                                     <p class="text-center">Небесно-голубой</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -514,7 +492,7 @@
                                     <p class="text-center">Орех аида табак</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -530,7 +508,7 @@
                                     <p class="text-center">Орех антикварный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -546,7 +524,7 @@
                                     <p class="text-center">Орех донской</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -562,7 +540,7 @@
                                     <p class="text-center">Орех эккс</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -578,7 +556,7 @@
                                     <p class="text-center">Орех гварнери</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -594,7 +572,7 @@
                                     <p class="text-center">Шимо светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -610,7 +588,7 @@
                                     <p class="text-center">Торонто шоколад</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -626,7 +604,7 @@
                                     <p class="text-center">Винтерберг</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -642,7 +620,7 @@
                                     <p class="text-center">Ясень анкор светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -658,7 +636,7 @@
                                     <p class="text-center">Ясень анкор темный</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -674,7 +652,7 @@
                                     <p class="text-center">Ясень ориноко светлый</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -690,7 +668,7 @@
                                     <p class="text-center">1</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -706,7 +684,7 @@
                                     <p class="text-center">2</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -722,7 +700,7 @@
                                     <p class="text-center">Бодяга белая</p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
                                 </div>
                             </div>
                         </div>
@@ -736,8 +714,8 @@
     </section>
     <section id="aboutus">
         <div class="container" >
-            <h1 class="display-5 text-center" style="font-family:'Segoe UI Black'; font-size: 42px;">О нас</h1>
-            <p class="lead mb-4 text-center">О компании ДКМ-групп
+            <h1 class="display-5 text-center py-2" style="font-family:'Segoe UI Black'; background-color: orange; font-size: 42px;">О нас</h1>
+            <p class="lead mb-4 text-center" style="font-family:'Oswald Medium'">О компании ДКМ-групп
                 «ДКМ групп» - производитель межкомнатных дверей, шкафов купе, дверц для антресолей в Москве. А также мы делаем кухни под заказ. Наши кухонные гарнитуры, выполненные в различных стилях, формах и цветах. Приедем к вам и предложим вам лучшие варианты для вашего помещения. Делаем мебель под заказ исходя из размеров. Подберем мебель по вашему желанию и предпочтению. Яркие цвета или сдержанные? Скорее изучайте предложения на нашем сайте и выбирайте лучшее для себя! Сразу скажем о примерной стоимости исходя из расчетов.
             </p>
         </div>
@@ -747,7 +725,6 @@
     <div class="container">
         <footer class="d-flex justify-content-between py-3 my-4 border-top">
             <p class="col-md-4 mb-0 text-muted">© 2004-2022 DKMGroup.</p>
-            <p class="text-muted">+7 (995) 550-64-64</p>
         </footer>
     </div>
 </body>

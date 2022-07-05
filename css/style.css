@@ -1,21 +1,21 @@
 @font-face {
-    font-family: HelveticaNeueCyrMedium;
+    font-family: Oswald Medium;
     color:black;
-    src: url(../fonts/HelveticaNeue.woff);
+    src: url(../fonts/Oswald-Medium.ttf);
 }
 
+html {
+    font-family: Oswald Medium !important;
+}
+
+
 .nav-link {
-    font-family: HelveticaNeueCyrMedium,Arial,sans-serif;
+
     color: black;
 }
 
 .nav-link:hover {
-    color: orange;
-}
-
-
-.carousel slide .item {
-    height: 30px;
+    color: white;
 }
 
 .item img {
@@ -28,13 +28,71 @@
 
 @media (max-width: 576px) {
     #slider-photo img {
-    height: 300px;
-}
+        height: 300px;
+    }
+
+    header img {
+        width: 100%;
+        height: 130px;
+    }
+
+    #ourworks img {
+        width: 100%;
+        height: 120px;
+    }
+
+    #colors img {
+        padding-bottom: 10px;
+        height: 120px;
+        width: 100%;
+    }
+
+    #colors .modal-body img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .carusel-text {
+        font-size: 24px;
+    }
+
+    .border-slider  {
+        border: 4px solid orange; padding: 0px;
+    }
 }
 
 @media (min-width: 580px) {
     #slider-photo img {
         height: 600px;
+    }
+
+    header img {
+        width: 90%;
+        height: 150px;
+    }
+
+    #ourworks img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #colors img {
+        padding-bottom: 10px;
+        height: 200px;
+        width: 100%;
+    }
+
+    #colors .modal-body img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .carusel-text {
+        font-size: 32px;
+    }
+
+    .border-slider  {
+        border: 10px solid orange; padding: 0px;
     }
 }
 
@@ -42,35 +100,8 @@
     font-size: 18px;
 }
 
-@media (max-width: 576px) {
-    header img {
-        width: 100%;
-        height: 130px;
-    }
-}
 
-@media (min-width: 580px) {
-    header img {
-        width: 90%;
-        height: 150px;
-    }
-}
-
-@media (max-width: 576px) {
-    #ourworks img {
-        width: 100%;
-        height: 120px;
-    }
-}
-
-@media (min-width: 580px) {
-    #ourworks img {
-        width: 100%;
-        height: 300px;
-    }
-}
 #colors {
-    font-family: HelveticaNeueCyrMedium,Arial,sans-serif;
     color: black;
     font-size: 30px;
 }
@@ -79,32 +110,12 @@
     padding-bottom: 10px;
 }
 
-@media (max-width: 576px) {
-    #colors img {
-        padding-bottom: 10px;
-        height: 120px;
-        width: 100%;
-    }
+li, .modal-body, .btn {
+    list-style: none;
+    font-family: Oswald Medium;
 }
 
-@media (min-width: 580px) {
-    #colors img {
-        padding-bottom: 10px;
-        height: 200px;
-        width: 100%;
-    }
-}
 
-@media (max-width: 576px) {
-    #colors .modal-body img {
-        height: 100%;
-        width: 100%;
-    }
-}
 
-@media (min-width: 580px) {
-    #colors .modal-body img {
-        height: 100%;
-        width: 100%;
-    }
-}
+
+
