@@ -49,7 +49,7 @@
     </header>
 </div>
 
-    <section id="slider-photo">
+    <section id="slider-photo" class="pb-4">
         <div class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -59,7 +59,7 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/slider/92sZeWTdwp8.jpg" class="w-100" alt="...">
+                        <a href="./kitchens/first.html"><img src="img/slider/92sZeWTdwp8.jpg" class="w-100" alt="..."></a>
                         <div class="carousel-caption d-md-block">
                             <h5>50000 руб</h5>
                             <p>Кухня эконом ЭК-1 цвет БЕЛЫЙ </p>
@@ -92,9 +92,9 @@
         </div>
     </section>
 
-    <section id="howto" class="pb-20">
+    <section id="howto" class="pb-20" style="font-family:'Segoe UI Black'">
         <div class="container py-3 px-3" id="featured-3">
-            <h2 class="pb-2 border-bottom text-center">КАК СДЕЛАТЬ ЗАКАЗ</h2>
+            <h2 class="pb-2 border-bottom text-center">КАК СДЕЛАТЬ ЗАКАЗ?</h2>
             <div class="row text-center">
                 <div class="col">
                     <img src="./img/howto/1.jpg" height="200px" width="200px" alt="">
@@ -114,116 +114,633 @@
             </div>
         </div>
     </section>
-    <section id="aboutus">
+
+
+    <section id="colors" > <!-- цветовая палитра -->
         <div class="container">
-            <h1 class="display-5 fw-bold text-center">О нас</h1>
+            <div class="border-bottom text-center py-2" style="font-size:36px; font-family:'Segoe UI Black'">Доступные расцветки</div> <!-- не трогать -->
+            <div class="py-3 row justify-content-start "> <!-- не трогать -->
+
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/akacia%20lay%20land.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal1"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal1"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/akacia%20lay%20land.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Акация лей ленд</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/atlas%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal2"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal2"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/atlas%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Атлас светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/belaya%20shagren.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal3"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal3"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/belaya%20shagren.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Белая шагрень</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/beliy%20glyanec.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal4"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal4"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/beliy%20glyanec.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Белый глянец</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/beton%20chicago.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal4"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal4"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/beton%20chicago.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Бетон чикаго</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/beton%20pai%20temniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal5"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal5"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/beton%20pai%20temniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Бетон пайи темный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/cement%20temniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal6"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal6"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/cement%20temniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Цемент темный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20atlanta.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal7"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal7"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20atlanta.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб алтанта</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20molochniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal8"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal8"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20molochniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб молочный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20ordinskiy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal9"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal9"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20ordinskiy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб ордынсикй</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20sandal.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal10"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal10"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20sandal.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб сандал</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20sanoma.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal11"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal11"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20sanoma.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб санома</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20santana%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal12"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal12"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20santana%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб сантана светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20shamoni%20temniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal13"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal13"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20shamoni%20temniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб шамони темный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20shamoni.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal14"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal14"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20shamoni.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб шамони</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20vaton.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal15"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal15"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20vaton.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб ватон</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/dub%20venge.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal16"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal16"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/dub%20venge.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Дуб венге</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/gaskon%20pai%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal17"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal17"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/gaskon%20pai%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Гаскон пайи светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/indian%20eboni%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal18"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal18"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/indian%20eboni%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Индиан эбони светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/kantri%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal19"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal19"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/kantri%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Кантри светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/kashemir.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal20"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal20"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/kashemir.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Кашемир</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/klen%20.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal21"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal21"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/klen%20.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Клен</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/liberika%20molochnaya.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal22"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal22"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/liberika%20molochnaya.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Либерика молочная</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/nebesno-goluboi.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal23"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal23"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/nebesno-goluboi.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Небесно-голубой</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/oreh%20aida%20tabak.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal24"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal24"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/oreh%20aida%20tabak.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Орех аида табак</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/oreh%20antikvarniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal25"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal25"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/oreh%20antikvarniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Орех антикварный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/oreh%20donskoi.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal26"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal26"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/oreh%20donskoi.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Орех донской</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/oreh%20ekks.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal27"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal27"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/oreh%20ekks.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Орех эккс</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/oreh%20gvarneri.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal28"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal28"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/oreh%20gvarneri.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Орех гварнери</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/shimo%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal29"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal29"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/shimo%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Шимо светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/toronto%20shokolad.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal30"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal30"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/toronto%20shokolad.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Торонто шоколад</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/vinterberg.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal31"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal31"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/vinterberg.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Винтерберг</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/yasen'%20ankor%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal32"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal32"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/yasen'%20ankor%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Ясень анкор светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/yasen'%20ankor%20temniy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal33"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal33"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/yasen'%20ankor%20temniy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Ясень анкор темный</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/yasen'%20orinoko%20svetliy.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal34"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal34"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/yasen'%20orinoko%20svetliy.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Ясень ориноко светлый</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/1hz.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal35"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal35"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/1hz.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">1</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/1hz2.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal36"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal36"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/1hz2.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">2</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <img src="./img/patternsgood/bodyaga%20belaya.jpg" width="200px"  height="200px" alt="" data-bs-toggle="modal" data-bs-target="#modal37"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                    <div class="modal fade" id="modal8"> <!-- меняешь тут modalfive на modalone -->
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./img/patternsgood/bodyaga%20belaya.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                    <p class="text-center">Бодяга белая</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section id="aboutus">
+        <div class="container" >
+            <h1 class="display-5 text-center" style="font-family:'Segoe UI Black'; font-size: 42px;">О нас</h1>
             <p class="lead mb-4 text-center">О компании ДКМ-групп
                 «ДКМ групп» - производитель межкомнатных дверей, шкафов купе, дверц для антресолей в Москве. А также мы делаем кухни под заказ. Наши кухонные гарнитуры, выполненные в различных стилях, формах и цветах. Приедем к вам и предложим вам лучшие варианты для вашего помещения. Делаем мебель под заказ исходя из размеров. Подберем мебель по вашему желанию и предпочтению. Яркие цвета или сдержанные? Скорее изучайте предложения на нашем сайте и выбирайте лучшее для себя! Сразу скажем о примерной стоимости исходя из расчетов.
             </p>
-        </div>
-    </section>
-
-            <section id="colors" class="bg-light"> <!-- цветовая палитра -->
-        <div class="container">
-            <div class="text-center py-4 card">Доступные расцветки</div> <!-- не трогать -->
-            <div class="row justify-content-around"> <!-- не трогать -->
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%"  height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
-                    <div class="modal fade" id="modalfive"> <!-- меняешь тут modalfive на modalone -->
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px"> <!-- меняешь тут картинку, которая выводится при нажатии -->
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%" height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive">
-                    <div class="modal fade" id="modalfive">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%" height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive">
-                    <div class="modal fade" id="modalfive">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%"  height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive">
-                    <div class="modal fade" id="modalfive">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%"  height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive">
-                    <div class="modal fade" id="modalfive">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6">
-                    <img src="./img/SkR34LnPXbY.jpg" width="100%" height="120px" alt="" data-bs-toggle="modal" data-bs-target="#modalfive">
-                    <div class="modal fade" id="modalfive">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                    <img src="img/SkR34LnPXbY.jpg" width="480px" height="320px">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

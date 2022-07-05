@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kitchens/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/first.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kitchens/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/second.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +28,10 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -49,6 +52,8 @@
       <workItem from="1656702815553" duration="4377000" />
       <workItem from="1656765722716" duration="346000" />
       <workItem from="1656885230259" duration="293000" />
+      <workItem from="1656945415746" duration="2032000" />
+      <workItem from="1656977501214" duration="5250000" />
     </task>
     <servers />
   </component>
