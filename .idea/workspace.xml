@@ -2,43 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52bf7dd-ff0c-4a2b-a3dc-8b0ce5d64a53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/kitchen1Alisa/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kitchens/moduli.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kitchens/vidifasadov.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/ab titul.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kitchen1Alisa/abc9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kitchens/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/first.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitchens/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/second.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +36,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +64,8 @@
       <workItem from="1656977501214" duration="5250000" />
       <workItem from="1657037699836" duration="4591000" />
       <workItem from="1657047016436" duration="1973000" />
-      <workItem from="1657049283696" duration="13472000" />
+      <workItem from="1657049283696" duration="14992000" />
+      <workItem from="1657104625078" duration="1354000" />
     </task>
     <servers />
   </component>
