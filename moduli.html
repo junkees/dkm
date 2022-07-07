@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link rel="shortcut icon" href="../img/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>DKM Group</title>
+</head>
+<body>
+<div class="container">
+    <nav class="border-bottom">
+        <div class="container" style="background-color: orange">
+            <ul class="nav nav-pills justify-content-around">
+                <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page"><b>Главная</b></a></li>
+                <li class="nav-item"><a href="./works.html" class="nav-link"><b>Наши работы</b></a></li>
+                <li class="nav-item"><a href="./moduli.html" class="nav-link"><b>Модули</b></a></li>
+                <li class="nav-item"><a href="./vidifasadov.html" class="nav-link"><b>Виды фасадов</b></a></li>
+                <li class="nav-item"><a href="#" class="nav-link"><b>Контакты</b></a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="px-4 py-4">
+        <div class="container" style="font-family:'Oswald Medium'; font-size: 24px">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <a href="./index.html"><img src="img/logoDkm.png" class="px-4" alt=""></a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <p class="text-center pt-4"><i class="fa-solid fa-location-dot"></i> 107370, г. Москва Открытое шоссе д. 20 стр. 1</p>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск по сайту">
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+
+                </div>
+                <div class="col-lg-4 col-md-12 text-center py-3">
+                    <p><i class="fa-solid fa-clock"></i> с 8:00 до 21:00</p>
+                    <p><i class="fa-solid fa-phone"></i> +7 (916) 550-64-64</p>
+                    <p><i class="fa-solid fa-phone"></i> +7 (977) 250-31-80</p>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+
+
+
+   <!--  <section id="slider-photo" class="pb-4">
+    <div class="container" style="font-family:'Oswald Medium'">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+            </div>
+            <div class="border-slider">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/kitchen1Alisa/kitchen%20Alisa%20main.jpg" class="w-100" alt="...">
+                        <!-- <div class="carousel-caption d-md-block">
+                             <div class="carusel-text">
+                                <p>78000 руб</p>
+                                <p>Кухня Алиса</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/kitchen1Alisa/1.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/kitchen1Alisa/2.jpg" class="w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/kitchen1Alisa/3.jpg" class="w-100" alt="...">
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section> -->
+
+
+
+<section id="modulitype" > <!-- типы модулей -->
+    <div class="container">
+        <div class="border-bottom text-center py-2" style="font-size:32px; font-family:'Segoe UI Black'; background-color: orange">КУХОННЫЕ МОДУЛИ</div> <!-- не трогать -->
+        <div class="py-3 row row-cols-auto row-cols-lg-5 text-center"> <!-- не трогать -->
+            <div class="col">
+                <img src="./img/moduli/1.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal1"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal1"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/1.jpg"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/2.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal2"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal2"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/2.jpg"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <img src="./img/moduli/3.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal3"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal3"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/3.jpg"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/4.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal4"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal4"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/4.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/5.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal5"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal5"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/5.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/6.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal6"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal6"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/6.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/7.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal7"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal7"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/7.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/8.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal8"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal8"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/8.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/9.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal9"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal9"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/9.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <img src="./img/moduli/10.jpg"  alt="" data-bs-toggle="modal" data-bs-target="#modal10"> <!-- меняешь тут #modalfive на #modalone и картинку на которую жамкают-->
+                <div class="modal fade" id="modal10"> <!-- меняешь тут modalfive на modalone -->
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="./img/moduli/10.jpg" width="100%" height="100%"> <!-- меняешь тут картинку, которая выводится при нажатии -->
+                                <p class="text-center"></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Закрыть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="ourworks">
+    <div class="album py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card shadow-sm">
+
+                        <div class="card-body" style="font-size: 30px">
+                            <ul>
+                                <li>Цена одного модуля от 3500 рублей</li>
+                                </p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<div class="container">
+    <footer class="d-flex justify-content-between p-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2004-2022 DKMGroup.</p>
+        <p class="text-muted">+7 (995) 550-64-64</p>
+    </footer>
+</div>
