@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f52bf7dd-ff0c-4a2b-a3dc-8b0ce5d64a53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/img/fasadi/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/fasadiznabornoiplanki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/gladkiefasadi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fasadi/gladkiyfasadvprofile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/slide3main.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/callnames.html" beforeDir="false" afterPath="$PROJECT_DIR$/callnames.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitchens/bufet.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/bufet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitchens/first.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/first.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitchens/second.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchens/second.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduli.html" beforeDir="false" afterPath="$PROJECT_DIR$/moduli.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vidifasadov.html" beforeDir="false" afterPath="$PROJECT_DIR$/vidifasadov.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +99,8 @@
       <workItem from="1657144845987" duration="39000" />
       <workItem from="1657144939260" duration="2819000" />
       <workItem from="1657189979375" duration="5418000" />
-      <workItem from="1657197804143" duration="118000" />
+      <workItem from="1657197804143" duration="173000" />
+      <workItem from="1657230514392" duration="3233000" />
     </task>
     <servers />
   </component>
